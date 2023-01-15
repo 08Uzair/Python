@@ -1,4 +1,4 @@
-n = int(input("Enter the number of inputs: "))
+n = int(input("Enter the numbers of inputs: "))
 numbers = []
 for i in range(n):
     num = int(input("Enter a number: "))
