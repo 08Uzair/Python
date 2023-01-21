@@ -19,8 +19,9 @@ a=str1[:7]
 b=str1[7:]
 print(a)
 print(b)
-d=a.join(b)
-print(d)
+print(a.strip()+b.strip())
+# d=a.join(b)
+# print(d)
 
 
 
