@@ -1,7 +1,7 @@
 # Check Weather the given Sring is the Plaindrome or Not
 
 str=input("Enter a String :\n ")
-palin=str[::-1]
+palin=str[::-1] #tO check wearher the given string is palindrome or not ::
 if (list(str)==list(palin)):
     print("The Given String is the Palindrome")
 else:
