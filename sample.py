@@ -1,5 +1,4 @@
-def func(a,b):
-    c=a+b
-    return c
-c=func(90,78)
-print("THE ADDITION  OF THE GIVEN NUM IS ",c)
+str="a1234bcd"
+a=list(str)
+print(a)
+if 
