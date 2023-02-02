@@ -48,13 +48,8 @@
 
 
 
-list=('a','b')
-print(type(list))
-
-
-
-
-
-
-
-
+list="I am a Programmer"
+n=(list.split())
+ch="*"
+d=ch.join(n)
+print(type(d))
