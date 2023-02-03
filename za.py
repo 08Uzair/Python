@@ -17,3 +17,32 @@
 # str="Python Programming"
 # print(len(str))
 # print(str[::-1])
+
+
+
+from string import Template
+str=Template('$name is intresting')
+str1=str.substitute(name="Python")
+print(str)
+str=str.substitute(name='Harry')
+print(str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
